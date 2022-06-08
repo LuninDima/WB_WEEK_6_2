@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name">WB_WEEK_6_1</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment1</string>
+    <string name="app_name">WB_WEEK_6_2</string>
     <string name="button_pausa_text">Pause</string>
     <string name="button_play_text">Play</string>
     <string name="button_reset_text">Reset</string>
