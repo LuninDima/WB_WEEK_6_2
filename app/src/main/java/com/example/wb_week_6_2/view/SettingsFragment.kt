@@ -85,7 +85,7 @@ class SettingsFragment : Fragment() {
         piViewModel.viewModelCoroutineScope.launch(Dispatchers.Default) {
             binding.chronometer.setOnChronometerTickListener {
                 val elapsedMillis: Long = (SystemClock.elapsedRealtime() - binding.chronometer.base)
-                if (elapsedMillis / countIntervalChangeColor in 1000..1999) {
+                if (elapsedMillis / countIntervalChangeColor in 20000..20999) {
                     countIntervalChangeColor++
                     color = getColorForSettingsFragment()
                     Dispatchers.Main.let {
